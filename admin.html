@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin - StormCut</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="login-container" id="login-container">
+    <h2>Login Admin</h2>
+    <form id="login-form">
+      <input type="text" id="username" placeholder="Usuário" required />
+      <input type="password" id="password" placeholder="Senha" required />
+      <button type="submit" class="btn-primary">Entrar</button>
+    </form>
+  </div>
+
+  <div class="admin-panel hidden" id="admin-panel">
+    <h2>Painel de Produtos</h2>
+    <form id="produto-form">
+      <input type="text" id="prod-nome" placeholder="Nome do Produto" required />
+      <textarea id="prod-desc" placeholder="Descrição" required></textarea>
+      <input type="number" id="prod-num" placeholder="Número do produto" required />
+      <input type="url" id="prod-img" placeholder="URL da imagem" required />
+      <button type="submit" class="btn-primary">Adicionar Produto</button>
+    </form>
+    <button id="btn-logout" class="btn-secondary">Logout</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
