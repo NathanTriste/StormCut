@@ -1,0 +1,55 @@
+*{
+.card-content p{
+    color:#cfcfcf;
+    margin-bottom:10px;
+}
+
+.preco{
+    font-size:22px;
+    color:#4ab3ff;
+    font-weight:bold;
+}
+
+.card-content button{
+    width:100%;
+    margin-top:15px;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    background:#0a84ff;
+    color:white;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.admin-box{
+    max-width:500px;
+    margin:80px auto;
+    background:#0d1324;
+    padding:40px;
+    border-radius:20px;
+}
+
+.admin-box h1{
+    margin-bottom:20px;
+}
+
+.admin-box input{
+    width:100%;
+    padding:14px;
+    margin:10px 0;
+    border:none;
+    border-radius:10px;
+}
+
+.admin-box button{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#0a84ff;
+    color:white;
+    cursor:pointer;
+    font-weight:bold;
+}
+}

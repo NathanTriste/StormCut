@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StormCut</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="logo">StormCut</div>
+
+  <div class="perfil-area">
+    <button onclick="logout()">Perfil / Sair</button>
+    <button id="adminBtn" onclick="abrirAdmin()">Admin</button>
+  </div>
+</header>
+
+<section class="banner">
+  <h1>StormCut Store</h1>
+  <p>Produtos selecionados com estilo premium.</p>
+</section>
+
+<section id="produtos" class="produtos"></section>
+
+<script src="script.js"></script>
+</body>
+</html>
