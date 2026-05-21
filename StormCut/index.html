@@ -3,31 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>StormCut</title>
+  <title>StormCut Login</title>
 
-  <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="login-body">
 
-<header>
-  <div class="logo">StormCut</div>
+<div class="login-box">
+  <h1>Bem vindo ao StormCut</h1>
 
-  <div class="perfil-area">
-    <button onclick="logout()">Perfil / Sair</button>
-    <button id="adminBtn" onclick="abrirAdmin()">Admin</button>
-  </div>
-</header>
+  <input type="text" id="loginNome" placeholder="Nome">
+  <input type="password" id="loginSenha" placeholder="Senha">
 
-<section class="banner">
-  <h1>StormCut Store</h1>
-  <p>Produtos selecionados com estilo premium.</p>
-</section>
+  <button onclick="login()">Entrar</button>
 
-<section id="produtos" class="produtos"></section>
+  <p>
+    Não possui conta?
+    <a href="cadastro.html">Criar conta</a>
+  </p>
+</div>
 
 <script src="script.js"></script>
 </body>
