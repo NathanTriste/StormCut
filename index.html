@@ -1,32 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>StormCut Login</title>
-
- <link rel="stylesheet" href="./style.css">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <title>StormCut - Login</title>
+  <link rel="stylesheet" href="./style.css"> <!-- Carrega CSS -->
+  <!-- Fonte futurista (Google Fonts, opcional) -->
+  <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700&display=swap" rel="stylesheet">
 </head>
-<body class="login-body">
-
-<div class="login-box">
-  <h1>Bem vindo ao StormCut</h1>
-
-  <input type="text" id="loginNome" placeholder="Nome">
-  <input type="password" id="loginSenha" placeholder="Senha">
-
-  <button onclick="login()">Entrar</button>
-
-  <p>
-    Não possui conta?
-    <a href="cadastro.html">Criar conta</a>
-  </p>
-</div>
-
-<script src="script.js"></script>
+<body>
+  <div class="login-card">
+    <h1>Bem-vindo ao StormCut</h1>
+    <input id="loginNome" type="text" placeholder="Nome" />
+    <input id="loginSenha" type="password" placeholder="Senha" />
+    <button onclick="login()">Entrar</button>
+    <p><a href="cadastro.html">Criar conta</a></p>
+  </div>
+  <script src="./script.js"></script>
 </body>
 </html>

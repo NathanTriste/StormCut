@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>StormCut - Admin</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h3>Painel Admin</h3>
+    <nav>
+      <button onclick="window.location.href='home.html'">Voltar</button>
+    </nav>
+  </header>
+  <div class="admin-form">
+    <h2>Adicionar Produto</h2>
+    <input id="nomeProduto" type="text" placeholder="Nome do produto" />
+    <textarea id="descricaoProduto" placeholder="Descrição"></textarea>
+    <input id="precoProduto" type="number" placeholder="Preço R$" />
+    <input id="imagemProduto" type="text" placeholder="URL da imagem" />
+    <button onclick="adicionarProduto()">Salvar Produto</button>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
